@@ -1,5 +1,18 @@
-p{color:rgb(179, 10, 230); font-size : large}
+p{color:rgb(179, 10, 230); font-size : large ; font-weight: bold;}
 ol{color:rgb(167, 242, 5); font-size: large}
 ol{background-color: aqua;}
 
-/* html{background-image: url("dukehat.jpg"); font-family: Georgia, 'Times New Roman', Times, serif;} */
+p strong {font-weight: normal;}
+
+html{background-image: url("dukehat.jpg"); background-size: cover;  
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+   
+    /*select all html tags that have a class highlight_01*/
+span{background-color:rgb(251, 18, 18)}
+.highlight_01{background-color: rgb(180, 241, 199);}
+.highlight_02{background-color: aqua;}
+
+#duke-small {width: 100px}
+#duke-medium {width: 200px}
+#duke-large {width: 300px}
