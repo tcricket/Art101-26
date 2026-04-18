@@ -1,0 +1,15 @@
+body{background-image: url("../images/whalefallbg.png"); background-size: cover;}
+
+body {text-align: center; font-family: georgia; font-size: large;}
+
+.paragraph1 {color:rgb(255, 255, 255); background-color: #6d80fa; padding: 15px}
+.paragraph2 {color:rgb(255, 255, 255); background-color: #6d80fa; padding: 50px}
+
+
+
+.paragraph2,.paragraph1{
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.img {padding-top: 100px}

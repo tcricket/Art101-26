@@ -1,0 +1,37 @@
+body {
+    background: #a2cd8f;
+    padding: 50px;
+}
+h1,h2,h3 {
+    color: #34612d;
+    font-family: verdana;}
+   
+h1,h2,h3 {text-align: center;}
+p {text-align: center; font-family: verdana; font-size: small;}
+ol {text-align: center; font-family: verdana; font-size: small; color: #427c39;}
+
+img {align: center}
+
+ img {
+    width: 200px;
+}
+
+img {
+
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.paragraph1{color: #427c39;}
+
+body {
+  border: 10px dashed #34612d; 
+  margin: 0;                
+  min-height: 100vh;        
+  box-sizing: border-box;   
+}
+
+h1,h2,h3 {
+  outline: 5px solid #ffffff;
+}
