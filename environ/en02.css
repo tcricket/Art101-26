@@ -1,0 +1,46 @@
+body {
+    background-image: url("../images/whalefallbg.png");
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+    font-family: georgia;
+    font-size: large;
+}
+
+.paragraph1 {
+    color: rgb(255, 255, 255);
+    background-color: #6d80fa;
+    padding: 15px;
+    margin-bottom: auto;
+}
+
+.paragraph2 {
+    color: rgb(255, 255, 255);
+    background-color: #6d80fa;
+    padding: 15px;
+    margin: auto;
+    text-align: right;
+}
+
+.paragraph3 {
+    color: rgb(255, 255, 255);
+    background-color: #6d80fa;
+    padding: 15px;
+    margin: 10;
+}
+
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.letme{  
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
