@@ -16,14 +16,11 @@ $("#needy-button").click( function(){
 
     $("#needy-button").html("you clicked me " + count + " and your favourite color today is: " + colors[colorCount] );
 
-    $("#needy-button").css( "background-color", colors[colorCount]);  
+    $("#needy-button").css( "background-color", colors[colorCount % 4]);  
 
-    $("html").css( "background-color", colors[colorCount+1]);
+    $("html").css( "background-color", colors[(colorCount+1) % 4]);
 
     console.log(pencil.color);
 
-// things to try out:
-// make the page background color two colors ahead of the button color
-// make the page background color one color beyond of the button color
 
 });

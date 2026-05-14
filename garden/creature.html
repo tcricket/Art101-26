@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- All techy stuff goes here, inside HEAD -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Overall title of your page -->
+   <title>The Garden of Creatures</title>
+   <!-- Link to external CSS file -->
+   <link rel="stylesheet" href="creature.css">
+   <!-- jQuery library -->
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <!-- Link to external JavaScript file -->
+   <script src="creature.js" DEFER></script>
+
+</head>
+
+<body>
+
+ <h1>The Garden of Creatures</h1>
+
+<!--Add Creatures to the Garden-->
+
+<!--adding creatures-->
+ <div id="creature-form"> 
+
+    <div>Name: <input type="text" id="crName"> </div>
+    <div>Color: <input type="color" id="crColor" value="#aee97e"> </div>
+    <div> Number of Eyes: <input id="crEyesNum" type="number" max="5"> </div>
+    <div>
+        <button id="crAdd">Add Creature</button>
+    </div>
+
+ </div>
+
+
+<!--showing creatures-->
+ <div id="creature-list"> </div>
+
+</body>
+
+</html>
