@@ -1,12 +1,17 @@
 body {
+    background-image: url("../images/pkbg.jpg");
+    background-size: cover;
+}
+
+body {
   font-family: Arial, sans-serif;
   margin: 30px;
 }
 
 #scene {
   min-height: 500px;
-  background: lightyellow;
-  border: 2px solid black;
+  background-image: url("../images/grass.jpg");
+  border: 2px solid rgb(46, 37, 37);
   position: relative;
   overflow: hidden;
 }
@@ -14,7 +19,8 @@ body {
 #creature {
   width: 120px;
   height: 120px;
-  background: pink;
+  background-image: url("../images/piplup.png");
+     background-size: cover;
   border-radius: 30px;
   padding: 20px;
   box-sizing: border-box;
@@ -24,9 +30,10 @@ body {
   top: 40px;
   transition: background 0.3s, border-radius 0.3s, transform 0.3s, box-shadow 0.3s;
   z-index: 2;
+  color: rgb(0, 0, 0)
 }
 
-#thought {
+#thought { 
   display: none;
   position: absolute;
   left: 95px;
@@ -53,4 +60,5 @@ body {
 #status {
   font-size: 20px;
   font-weight: bold;
+  color: white
 }
