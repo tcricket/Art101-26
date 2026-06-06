@@ -11,32 +11,37 @@
    <link rel="stylesheet" href="creature.css">
    <!-- jQuery library -->
    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
    <!-- Link to external JavaScript file -->
+   <script src="firebase.js" DEFER></script>
    <script src="creature.js" DEFER></script>
 
 </head>
 
 <body>
 
- <h1>The Garden of Creatures</h1>
+   <h1>The Garden of Creatures</h1>
 
-<!--Add Creatures to the Garden-->
+   <!--Add Creatures to the Garden-->
 
-<!--adding creatures-->
- <div id="creature-form"> 
+   <!--adding creatures-->
+   <div id="creature-form">
 
-    <div>Name: <input type="text" id="crName"> </div>
-    <div>Color: <input type="color" id="crColor" value="#aee97e"> </div>
-    <div> Number of Eyes: <input id="crEyesNum" type="number" max="5"> </div>
-    <div>
-        <button id="crAdd">Add Creature</button>
-    </div>
+      <div>Name: <input type="text" id="crName"> </div>
+      <div>Color: <input type="color" id="crColor" value="#aee97e"> </div>
+      <div> Number of Eyes: <input id="crEyesNum" type="number" max="5"> </div>
+      <div><input type="checkbox" id="crRandom" value="yes"> <label for="crRandom">Randomize!</label> </div>
+      <div>
+         <button id="crAdd">Add Creature</button>
+      </div>
+      <div> <button id="btn-load">Load Creatures</button> </div>
 
- </div>
+   </div>
 
 
-<!--showing creatures-->
- <div id="creature-list"> </div>
+   <!--showing creatures-->
+   <div id="creature-list"> </div>
 
 </body>
 

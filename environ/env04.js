@@ -42,10 +42,13 @@ $("#needy-button").click(function () {
 
 });
 
+let userLevel = ["1.jpg","2.jpg","3.jpg"];
+let iterator = 0;
+
 $("#what_level").click(function () {
     console.log("button click");
-    let userLevel = prompt("What Level of the Ocean Are You In: light blue or darkblue");
-    let img = userLevel + ".jpg";
-    $("#background").css("background-image", "url('" + img + "')");
+    $("#background").css("background-image", "url('" + userLevel[iterator%3] + "')");
+    iterator++;
+    console.log(iterator%3);
 });
 
